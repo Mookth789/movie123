@@ -8,25 +8,25 @@ import LockResetOutlinedIcon from "@mui/icons-material/LockResetOutlined";
 
 const main = [
   {
-    display: "home",
+    display: "หน้าหลัก",
     path: "/",
     icon: <HomeOutlinedIcon />,
     state: "home"
   },
   {
-    display: "movies",
+    display: "หนังใหม่",
     path: "/movie",
     icon: <SlideshowOutlinedIcon />,
     state: "movie"
   },
   {
-    display: "tv series",
+    display: "รายการทีวี",
     path: "/tv",
     icon: <LiveTvOutlinedIcon />,
     state: "tv"
   },
   {
-    display: "search",
+    display: "ค้นหา",
     path: "/search",
     icon: <SearchOutlinedIcon />,
     state: "search"
@@ -35,13 +35,13 @@ const main = [
 
 const user = [
   {
-    display: "favorites",
+    display: "รายการโปรด",
     path: "/favorites",
     icon: <FavoriteBorderOutlinedIcon />,
     state: "favorite"
   },
   {
-    display: "reviews",
+    display: "รีวิวหนัง",
     path: "/reviews",
     icon: <RateReviewOutlinedIcon />,
     state: "reviews"
