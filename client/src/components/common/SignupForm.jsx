@@ -112,7 +112,7 @@ const SignupForm = ({ switchAuthState }) => {
         sx={{ marginTop: 4 }}
         loading={isLoginRequest}
       >
-        sign up
+        สมัครสมาชิก
       </LoadingButton>
 
       <Button
@@ -120,7 +120,7 @@ const SignupForm = ({ switchAuthState }) => {
         sx={{ marginTop: 1 }}
         onClick={() => switchAuthState()}
       >
-        sign in
+        ล็อคอิน
       </Button>
 
       {errorMessage && (

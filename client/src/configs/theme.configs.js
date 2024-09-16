@@ -23,10 +23,10 @@ const themeConfigs = {
       }
     } : {
       primary: {
-        main: "#ff0000"
+        main: "#7e58ff"
       },
       secondary: {
-        main: "#f44336"
+        main: "#7e58ff"
       },
       background: {
         default: colors.grey["100"],
